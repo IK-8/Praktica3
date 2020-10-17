@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kozlovskiy.SignActivity">
+
+    <Button
+        android:text="@string/signIn"
+        android:background="@drawable/back_round_smoke_bot"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <EditText
+            android:id="@+id/LoginTextView"
+            android:maxLines="1"
+            android:inputType="text"
+            android:hint="@string/loginHint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/PasswordTextView"
+            android:hint="@string/passwordHint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword" />
+
+
+        <Button
+            android:onClick="SignIn"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:text="@string/goSignIn"
+            android:layout_gravity="center"
+            android:background="@drawable/back_round_smoke"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</FrameLayout>

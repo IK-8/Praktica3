@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Работа на 3</string>
+    <string name="nameHint">Имя</string>
+    <string name="stateHint">Статус</string>
+    <string name="save">Coхранить</string>
+    <string name="signIn">Вход</string>
+    <string name="loginHint">Логин</string>
+    <string name="passwordHint">Пароль</string>
+    <string name="goSignIn">Войти</string>
+    <string name="CantSignInMessage">\"Неверный  логин или пароль.\"</string>
+    <string name="NullParametersMessage">Не все поля заполненны!</string>
+    <string name="title_activity_profile_maps">Map</string>
+</resources>
